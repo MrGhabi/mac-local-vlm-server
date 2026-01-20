@@ -39,7 +39,7 @@ huggingface-cli download mlx-community/Qwen3-VL-4B-Instruct-4bit
 
 支持的模型：
 - `mlx-community/Qwen3-VL-4B-Instruct-4bit` (2.9GB)
-- `mlx-community/Qwen3-VL-8B-Instruct-4bit` (5.4GB)
+- `mlx-community/Qwen3-VL-8B-Instruct-4bit` (5.4GB) **← 推荐，性能和速度都不错**
 - `mlx-community/Qwen3-30B-A3B-Instruct-2507-4bit` (16GB)
 
 ### 3. 编译安装

@@ -118,7 +118,7 @@ allowed_models = [
 ]
 
 [inference]
-max_tokens = 256
+max_tokens = 4096
 temperature = 0.1
 
 [paths]

@@ -111,7 +111,7 @@ def main():
     parser.add_argument("--image", required=True, help="Path to image file")
     parser.add_argument("--prompt", required=True, help="Prompt text")
     parser.add_argument("--model", default="mlx-community/Qwen3-VL-4B-Instruct-4bit", help="Model ID")
-    parser.add_argument("--max-tokens", type=int, default=256, help="Max tokens to generate")
+    parser.add_argument("--max-tokens", type=int, default=4096, help="Max tokens to generate")
     parser.add_argument("--temperature", type=float, default=0.1, help="Sampling temperature")
     
     args = parser.parse_args()

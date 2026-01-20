@@ -2,6 +2,9 @@
 
 本地LLM/VLM推理服务器，基于MLX，提供OpenAI兼容API。
 
+**环境要求：** Mac M系列芯片（M1/M2/M3/M4）
+**性能优势：** MLX专为Apple Silicon优化，充分利用统一内存架构，是Mac上运行LLM/VLM的最优选择。
+
 ## 特性
 
 - OpenAI兼容API (`/v1/chat/completions`)
